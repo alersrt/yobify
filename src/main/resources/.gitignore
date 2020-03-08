@@ -1,0 +1,14 @@
+# .gitignore to keep just specified files
+#########################################
+
+# Filter everything...
+*
+
+# ... except the .gitignore...
+!.gitignore
+
+# ... and all specified dirs.
+!image_data
+!model_data
+!processed_data
+!random_images

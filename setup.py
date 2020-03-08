@@ -10,10 +10,13 @@ setup(
     install_requires=[
       'docutils',
       'jupyter',
+      'matplotlib',
       'pandas',
       'numpy',
+      'sklearn',
       'keras',
       'tensorflow-cpu',
-      'turicreate'
+      'opencv-python',
+      'moviepy'
     ],
 )

@@ -1,0 +1,11 @@
+# .gitignore to keep just specified files
+#########################################
+
+# Filter everything...
+*
+
+# ... except the .gitignore...
+!.gitignore
+
+# ... and all text files.
+#!*.txt
