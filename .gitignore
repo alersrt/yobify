@@ -2,8 +2,6 @@
 
 # dirs
 .idea
-venv
-saves
 
 # files
 *.iml
