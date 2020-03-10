@@ -17,6 +17,7 @@ setup(
       'keras',
       'tensorflow-cpu',
       'opencv-python',
+      'mtcnn',
       'moviepy'
     ],
 )
