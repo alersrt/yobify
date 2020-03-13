@@ -10,5 +10,5 @@
 # ... and all specified dirs.
 !output_images
 !model_data
-!processed_data
 !input_images
+!static

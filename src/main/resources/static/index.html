@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Yobificator</title>
+</head>
+
+<script>
+  async function detect() {
+    let formData = new FormData();
+    formData.append('file', document.getElementById('input-file').files[0]);
+
+    let response = await fetch("/detect", {
+      method: 'POST',
+      body: formData
+    });
+    let body = await response.blob();
+    document.getElementById('result-img').src = URL.createObjectURL(body)
+  }
+</script>
+
+<body>
+<input id="input-file" type="file">
+<br/>
+<button onclick="detect()">youbify</button>
+<br/>
+<img id="result-img" src="" alt="result image" style="width: 50%">
+</body>
+</html>

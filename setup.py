@@ -8,6 +8,8 @@ setup(
     # Project uses reStructuredText, so ensure that the docutils get
     # installed or upgraded on the target machine
     install_requires=[
+      'flask',
+      'gunicorn',
       'docutils',
       'jupyter',
       'matplotlib',
