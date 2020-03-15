@@ -2,6 +2,7 @@
 
 # dirs
 .idea
+.vscode
 
 # files
 *.iml
